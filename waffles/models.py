@@ -22,7 +22,7 @@ class Community(models.Model):
     grow more complex over time.
     """
     name = models.CharField(max_length=64, verbose_name=_("Community name"))
-    members = models.ManyToManyField(UserProfile, _("Community members"))
+    members = models.ManyToManyField(UserProfile, verbose_name=_("Community members"))
 
     class Meta:
         verbose_name = _('Community')
@@ -72,8 +72,8 @@ class SubEvent(models.Model):
     Used when not everyone is participating in the entire event.
     """
     name = models.CharField(max_length=64, verbose_name=_("Name"))
-    participants = models.ManyToManyField(UserProfile, _("Participants"))
-    event = models.ForeignKey(Event, _("Parent event"))
+    participants = models.ManyToManyField(UserProfile, verbose_name=_("Participants"))
+    event = models.ForeignKey(Event, verbose_name=_("Parent event"))
 
     class Meta:
         verbose_name = _('Sub Event')
@@ -88,8 +88,8 @@ class ShoppingList(models.Model):
     """
     name = models.CharField(max_length=64, verbose_name=_("Name"))
     price = models.IntegerField(verbose_name=_("Price"))
-    payers = models.ManyToManyField(UserProfile, _("Payers"))
-    subevent = models.ForeignKey(SubEvent, _("Connected sub-event"))
+    payers = models.ManyToManyField(UserProfile, verbose_name=_("Payers"))
+    subevent = models.ForeignKey(SubEvent, verbose_name=_("Connected sub-event"))
 
     class Meta:
         verbose_name = _('Shopping list')

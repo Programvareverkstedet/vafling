@@ -24,7 +24,7 @@ msgstr "Brukerprofil"
 
 #: models.py:14
 msgid "User profiles"
-msgstr "Bruerprofiler"
+msgstr "Brukerprofiler"
 
 #: models.py:24
 msgid "Community name"
