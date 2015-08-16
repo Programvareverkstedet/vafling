@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-16 21:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: models.py:13 models.py:28 models.py:42
+msgid "Amount owed"
+msgstr "Sum skyldt"
+
+#: models.py:14
+msgid "Debtor"
+msgstr "Skylder"
+
+#: models.py:15
+msgid "Debtee"
+msgstr "Kreditor"
+
+#: models.py:18
+msgid "Total debt"
+msgstr "Sammenlagt gjeld"
+
+#: models.py:19
+msgid "Total debts"
+msgstr "Sammenlagte gjelder"
+
+#: models.py:26 models.py:40
+msgid "Connected debt"
+msgstr "Tilhørende gjeld"
+
+#: models.py:27
+msgid "Connected event"
+msgstr "Tilhørende event"
+
+#: models.py:29
+msgid "Date integrated"
+msgstr "Dato integrert"
+
+#: models.py:32
+msgid "Calculation"
+msgstr "Kalkulering"
+
+#: models.py:33
+msgid "Calculations"
+msgstr "Kalkuleringer"
+
+#: models.py:41
+msgid "Date made"
+msgstr "Dato gjort"
+
+#: models.py:45
+msgid "Cash settlement"
+msgstr "Kontantoppgjør"
+
+#: models.py:46
+msgid "Cash settlements"
+msgstr "Kontantoppgjør"

@@ -45,7 +45,7 @@ coverage.xml
 *,cover
 
 # Translations
-*.mo
+#*.mo We need them for dev-purposes for now.
 *.pot
 
 # Django stuff:

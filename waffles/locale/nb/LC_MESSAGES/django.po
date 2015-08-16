@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-16 21:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: models.py:13
+msgid "User profile"
+msgstr "Brukerprofil"
+
+#: models.py:14
+msgid "User profiles"
+msgstr "Bruerprofiler"
+
+#: models.py:24
+msgid "Community name"
+msgstr "Community navn"
+
+#: models.py:25
+msgid "Community members"
+msgstr "Community medlemmer"
+
+#: models.py:28 models.py:38
+msgid "Community"
+msgstr "Community"
+
+#: models.py:29
+msgid "Communities"
+msgstr "Communitier"
+
+#: models.py:39 models.py:60
+msgid "Start time"
+msgstr "Starttid"
+
+#: models.py:40 models.py:61
+msgid "End time"
+msgstr "Sluttid"
+
+#: models.py:41
+msgid "Requesting user"
+msgstr "Forespørrende bruker"
+
+#: models.py:42 models.py:56
+msgid "Description/text"
+msgstr "Beskrivelse/tekst"
+
+#: models.py:45 models.py:46
+msgid "Listing"
+msgstr "Forespørsel"
+
+#: models.py:55
+msgid "Event name"
+msgstr "Event navn"
+
+#: models.py:57
+msgid "Open for new participants"
+msgstr "Åpen for nye deltakere"
+
+#: models.py:58
+msgid "Finalized"
+msgstr "Avsluttet"
+
+#: models.py:59 models.py:75
+msgid "Participants"
+msgstr "Deltakere"
+
+#: models.py:64
+msgid "Event"
+msgstr "Event"
+
+#: models.py:65
+msgid "Events"
+msgstr "Eventer"
+
+#: models.py:74 models.py:89
+msgid "Name"
+msgstr "Navn"
+
+#: models.py:76
+msgid "Parent event"
+msgstr "Overordnet event"
+
+#: models.py:79
+msgid "Sub Event"
+msgstr "Underevent"
+
+#: models.py:80
+msgid "Sub Events"
+msgstr "Undereventer"
+
+#: models.py:90
+msgid "Price"
+msgstr "Pris"
+
+#: models.py:91
+msgid "Payers"
+msgstr "Betalt av"
+
+#: models.py:92
+msgid "Connected sub-event"
+msgstr "Tilhørende subevent"
+
+#: models.py:95
+msgid "Shopping list"
+msgstr "Handleliste"
+
+#: models.py:96
+msgid "Shopping lists"
+msgstr "Hendlelister"
