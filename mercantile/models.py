@@ -1,12 +1,15 @@
 from django.db import models
+
 from waffles.models import Event, UserProfile
+
+
 # Create your models here.
 
 
 class Debt(models.Model):
     amount = models.BigIntegerField()
-    debtor = models.ForeignKey(UserProfile)
-    debtee = models.ForeignKey(UserProfile)
+    debtor = models.ForeignKey(UserProfile, related_name="debtor")
+    debtee = models.ForeignKey(UserProfile, related_name="debtee")
 
 
 # oversikt over oppgjør, for logging
