@@ -41,7 +41,7 @@ class Subevent(models.Model):
 
 class ShoppingList(models.Model):
     name = models.CharField(max_length=64)
-    price = models.IntField
+    price = models.IntegerField()
     payers = models.ManyToManyField(UserProfile)
     subevent = models.ForeignKey(Subevent)
 
