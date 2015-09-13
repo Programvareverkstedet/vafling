@@ -1,0 +1,35 @@
+nav{
+	background-color: #f5c88a;
+	display: inline-block;
+	float: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+}
+nav li{
+	/*background-color: #0dffad;*/
+	display: inline-block;
+	list-style-type: none;
+	/*Shorthand margin takes input in the order:
+	top, right, bottom, left*/
+	margin: 0.2em 1em 0.2em 1em;
+}
+
+/*nav ul a{
+	display: block;
+}*/
+nav ul a:link{
+	color: black;
+}
+nav ul a:visited{
+	color: black;
+}
+nav ul a:hover{
+	color: #0c80e8;
+}
