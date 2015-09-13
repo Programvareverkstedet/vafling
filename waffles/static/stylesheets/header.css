@@ -1,0 +1,32 @@
+header{
+	color: black;
+	font-family: Georgia, serif;
+	font-size: 1.3em;
+	/*margin-top: 0.2em;*/
+	text-align: center;
+	/*background-color: #0ce8dc;*/
+	/*padding: 0;*/
+}
+header a:active{
+}
+header a:hover{
+	color: #0c80e8;
+}
+/*Unvisited style:*/
+header a:link{
+	color: black;
+	margin-top: 0.2em;
+}
+/*Visited style*/
+header a:visited{
+	color: black;
+}
+header h1{
+	display: inline-block;
+	font-size: inherit;
+}
+header img{
+	display: inline-block;
+	margin-right: 0.5em;
+	height: 1.3em;
+}
