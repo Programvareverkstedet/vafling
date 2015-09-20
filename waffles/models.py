@@ -64,6 +64,9 @@ class Event(models.Model):
         verbose_name = _('Event')
         verbose_name_plural = _('Events')
 
+    def __str__(self):
+        return "<Event name={name}>".format(name=self.name)
+
 
 class SubEvent(models.Model):
     """

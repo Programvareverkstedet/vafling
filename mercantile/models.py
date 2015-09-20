@@ -25,7 +25,7 @@ class Calculation(models.Model):
     This is a single calculation of debt from an event.
     """
     debt = models.ForeignKey(Debt, verbose_name=_("Connected debt"))
-    event = models.ForeignKey(Event, _("Connected event"))
+    event = models.ForeignKey(Event, verbose_name=_("Connected event"))
     amount = models.IntegerField(verbose_name=_("Amount owed"))
     date = models.DateTimeField(verbose_name=_("Date integrated"))
 
